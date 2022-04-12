@@ -7,9 +7,9 @@
             @input="updateSearchKeyword"
             /> -->
              <SearchInput v-model="searchKeyword" @search="searchProducts"/>
-           
+            <ProductList :productList="products"/>
         
-            <ul>
+            <!-- <ul>
                 <li 
                     v-for="product in products" :key="product.id"
                     @click="moveToDetails(product.id)"
@@ -19,7 +19,7 @@
                         <p>{{product.name}}</p><small>(${{product.price}})</small>
                     </div>
                 </li>
-            </ul>
+            </ul> -->
         </main>
       
     </div>

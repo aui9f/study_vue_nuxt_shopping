@@ -1,0 +1,30 @@
+[
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "/Users/suji/Documents/sjpark/dev/vue-nuxt-shopping/study_vue_nuxt_shopping/pages/cart.vue",
+    "chunkName": "pages/cart",
+    "_name": "_a6b03c78"
+  },
+  {
+    "name": "product",
+    "path": "/product",
+    "component": "/Users/suji/Documents/sjpark/dev/vue-nuxt-shopping/study_vue_nuxt_shopping/pages/product.vue",
+    "chunkName": "pages/product",
+    "_name": "_3d80207b"
+  },
+  {
+    "name": "detail-id",
+    "path": "/detail/:id?",
+    "component": "/Users/suji/Documents/sjpark/dev/vue-nuxt-shopping/study_vue_nuxt_shopping/pages/detail/_id.vue",
+    "chunkName": "pages/detail/_id",
+    "_name": "_622236a0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/suji/Documents/sjpark/dev/vue-nuxt-shopping/study_vue_nuxt_shopping/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_a3bf4044"
+  }
+]

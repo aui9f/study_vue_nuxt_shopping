@@ -20,7 +20,7 @@
 </template>
 
 <script>
-    import {fetchProductById} from '@/api/index'
+    import {createCartItem, fetchProductById} from '@/api/index'
     export default {
         async asyncData({params}){
 
@@ -31,10 +31,11 @@
             return {product}
         },
         methods: {
-            addToCart(payload){
-                console.log(this.product);
-                this.$store.commit('insertCart', this.product)
-                this.$router.push('/cart');
+            async addToCart(){
+              this.$store.dispatch('setCardItem', this.product)  
+                // const res = await createCartItem(this.product);
+                // this.$store.commit('INSERT_CART', this.product)
+                // this.$router.push('/cart');
             }
         }
     }
