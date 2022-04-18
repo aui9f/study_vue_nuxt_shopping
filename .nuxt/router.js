@@ -4,10 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _a6b03c78 = () => interopDefault(import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */))
-const _3d80207b = () => interopDefault(import('../pages/product.vue' /* webpackChunkName: "pages/product" */))
-const _622236a0 = () => interopDefault(import('../pages/detail/_id.vue' /* webpackChunkName: "pages/detail/_id" */))
-const _a3bf4044 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _910f7690 = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages/cart" */))
+const _a4a92df2 = () => interopDefault(import('..\\pages\\product.vue' /* webpackChunkName: "pages/product" */))
+const _15e6e7a1 = () => interopDefault(import('..\\pages\\detail\\_id.vue' /* webpackChunkName: "pages/detail/_id" */))
+const _0547492c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -22,19 +22,19 @@ export const routerOptions = {
 
   routes: [{
     path: "/cart",
-    component: _a6b03c78,
+    component: _910f7690,
     name: "cart"
   }, {
     path: "/product",
-    component: _3d80207b,
+    component: _a4a92df2,
     name: "product"
   }, {
     path: "/detail/:id?",
-    component: _622236a0,
+    component: _15e6e7a1,
     name: "detail-id"
   }, {
     path: "/",
-    component: _a3bf4044,
+    component: _0547492c,
     name: "index"
   }],
 

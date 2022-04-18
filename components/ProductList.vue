@@ -22,6 +22,13 @@
                     return []
                 }
             }
+        },
+        methods: {
+            moveToDetails(id){
+                console.log(id);
+                // this.$router.push(); -- 클라이언트 싱글페이지
+                this.$router.push(`detail/${id}`);
+            }
         }
         // async fetch(){
         //             const res = await axios.get('http://localhost:3000/products');
